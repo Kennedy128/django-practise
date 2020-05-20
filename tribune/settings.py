@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'tribune.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tribuness',
         'USER': 'kennedy',
     'PASSWORD':'Kennedy128',
